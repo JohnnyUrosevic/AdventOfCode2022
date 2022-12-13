@@ -7,6 +7,7 @@ from tuning_trouble import tuning_trouble
 from no_space import no_space
 from treetop_tree_house import treetop_tree_house
 from rope_bridge import rope_bridge
+from crt import crt
 
 def main():
     calorie_counting()
@@ -18,6 +19,7 @@ def main():
     no_space()
     treetop_tree_house()
     rope_bridge()
+    crt()
 
 if __name__ == '__main__':
     main()
