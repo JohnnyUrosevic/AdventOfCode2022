@@ -8,6 +8,8 @@ from no_space import no_space
 from treetop_tree_house import treetop_tree_house
 from rope_bridge import rope_bridge
 from crt import crt
+from monkey_in_the_middle import monkey_in_the_middle
+
 
 def main():
     calorie_counting()
@@ -20,6 +22,8 @@ def main():
     treetop_tree_house()
     rope_bridge()
     crt()
+    monkey_in_the_middle()
+
 
 if __name__ == '__main__':
     main()
