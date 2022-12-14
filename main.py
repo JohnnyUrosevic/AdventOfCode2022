@@ -9,7 +9,7 @@ from treetop_tree_house import treetop_tree_house
 from rope_bridge import rope_bridge
 from crt import crt
 from monkey_in_the_middle import monkey_in_the_middle
-
+from hill_climbing import hill_climbing 
 
 def main():
     calorie_counting()
@@ -23,7 +23,7 @@ def main():
     rope_bridge()
     crt()
     monkey_in_the_middle()
-
+    hill_climbing()
 
 if __name__ == '__main__':
     main()
