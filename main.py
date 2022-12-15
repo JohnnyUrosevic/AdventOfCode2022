@@ -10,6 +10,7 @@ from rope_bridge import rope_bridge
 from crt import crt
 from monkey_in_the_middle import monkey_in_the_middle
 from hill_climbing import hill_climbing 
+from distress_signal import distress_signal 
 
 def main():
     calorie_counting()
@@ -24,6 +25,7 @@ def main():
     crt()
     monkey_in_the_middle()
     hill_climbing()
+    distress_signal()
 
 if __name__ == '__main__':
     main()
