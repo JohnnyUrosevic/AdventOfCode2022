@@ -11,6 +11,7 @@ from crt import crt
 from monkey_in_the_middle import monkey_in_the_middle
 from hill_climbing import hill_climbing 
 from distress_signal import distress_signal 
+from regolith_reservoir import regolith_reservoir 
 
 def main():
     calorie_counting()
@@ -26,6 +27,7 @@ def main():
     monkey_in_the_middle()
     hill_climbing()
     distress_signal()
+    regolith_reservoir()
 
 if __name__ == '__main__':
     main()
